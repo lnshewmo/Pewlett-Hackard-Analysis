@@ -20,7 +20,7 @@ Queries were run on the 6 available .csv files containing employee data to evalu
 
 - Of those, the majority (70%) are either Senior Engineers or Senior Staff which may represent critical company operations.  The data is available here: [retiring_titles.csv](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/retiring_titles.csv)
 
-<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/retiring_titles.png" width=50% height=50%>
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/retiring_titles.png" width=30% height=30%>
 
 - Of the remaining prospective retirees, only 2 are Managers.  
 
