@@ -5,7 +5,7 @@
 The HR department at Pewlett-Hackard is anticipating a 'silver tsunami' where a large volume of employees become eligible for retirement at the same time.  An initiative is being proposed to soften the exodus and resulting loss of historical knowledge by retaining certain retirement-eligible employees on a part-time basis to mentor new hires.  
 
 ### Objective
-Queries were run on the 6 available .csv files containing employee data to evaluate the full scope of the tsunami, which departments and job titles will be impacted the most, and identify individuals who could be retained as mentors.  
+Queries were run on the 6 available .csv files containing employee data to evaluate the full scope of the tsunami, which job titles will be impacted the most, and identify individuals who could be retained as mentors.  
 
 ## Resources
 
@@ -36,4 +36,5 @@ Queries were run on the 6 available .csv files containing employee data to evalu
 The following may be useful to implement the mentoring program and can be pulled from the current data with additional queries:
   - Employee id, First and Last Name, (Current) Title and Department of (current) employees who have been with the company for less than ~2 years.  These employees may be candidates for internal mentoring.
   - A similar table containing the same information on employees who have been with the company for more ~ 5 years. These employees may be a secondary resource for additional mentors.
+  - Refactoring of the Retiring Titles query to include Department.  This would further characterize the impact of the tsunami on different departments.
   - Refactoring of the Mentorship Eligibility query to include Department.  This would identify mentors which can be matched with mentees within their department.
