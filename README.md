@@ -10,25 +10,35 @@ Six `.csv` files were imported into the database.  SQL queries were scripted to 
 ## Resources
 
 - Data Sources: [here](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/tree/main/Pewlett-Hackard-Challenge/data)
-- Quick DBD diagram: [here](https://www.quickdatabasediagrams.com/)
+- Quick DBD: [here](https://www.quickdatabasediagrams.com/)
 - PostgreSQL14.4 and pgAdmin4
 - SQL Queries: [Employee_Database_challenge.sql](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/queries/Employee_Database_challenge.sql)
 
-## Results 
+## Results
 
-- According to the HR criteria, a total of 72,485 employees have been identified as nearing retirement.  The data is available here: [unique_titles.csv](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/unique_titles.csv).
+### Entity Relational Diagram
+To aid in design of the database, the following diagram was created for mapping of the logical and physical relationships:
 
-- Of those, the majority (70%) are either Senior Engineers or Senior Staff which may represent critical company operations.  The data is available here: [retiring_titles.csv](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/retiring_titles.csv)
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/ERD.png" width="450" height="500"/>
 
-<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/retiring_titles.png" width=30% height=30%>
+### HR Report
 
-- Of the remaining prospective retirees, only 2 are Managers.  
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/elephant.png" width="20" height="20"/>  According to the HR criteria, a total of 72,485 employees have been identified as nearing retirement.  The data is available here: [unique_titles.csv](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/unique_titles.csv).
 
-- 1549 employees have been identified as prospective mentors.  These individuals are between 56-57 years old and may be considering retirement within the next ~5 years.  The data is available here: [mentorship_eligibility.csv](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/mentorship_eligibility.csv) 
+
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/elephant.png" width="20" height="20"/>  Of those, the majority (70%) are either Senior Engineers or Senior Staff which may represent critical company operations.  The data is available here: [retiring_titles.csv](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/retiring_titles.csv)
+
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/retiring_titles.png" width=20% height=20%>
+
+
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/elephant.png" width="20" height="20"/>  Of the remaining prospective retirees, only 2 are Managers.  
+
+
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/elephant.png" width="20" height="20"/>  1549 employees have been identified as prospective mentors.  These individuals are between 56-57 years old and may be considering retirement within the next ~5 years.  The data is available here: [mentorship_eligibility.csv](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/data/mentorship_eligibility.csv) 
 
 ## Summary
 
-Migration of the data to a relational database allows users to easily build reports which help inform key decisions for the company.
+Migration of the data to a relational database allows users to easily build reports which help inform key decisions for the company.  For example:
 
 ***How many roles will need to be filled as the "silver tsunami" begins to make an impact?***  
 
