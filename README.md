@@ -2,17 +2,17 @@
 
 ## Overview
 
-The HR department at Pewlett-Hackard is anticipating a 'silver tsunami' where a large volume of employees become eligible for retirement at the same time.  An initiative is being proposed to soften the exodus and resulting loss of historical knowledge by retaining certain retirement-eligible employees on a part-time basis to mentor new hires.  
+The HR department at Pewlett-Hackard is anticipating a 'silver tsunami' where a large volume of employees become eligible for retirement at the same time.  An initiative has been proposed to soften the exodus and resulting loss of historical knowledge by retaining certain retirement-eligible employees on a part-time basis to mentor new hires.  Until now, the employee data has been managed using Microsoft Excel.  As a part of the upgrade, the HR department would like to migrate the data to a PostgreSQL database and use pgAdmin to script queries.  Quick DBD was used to create an entity relational diagram (ERD) to visually demonstrate the relationships among the data tables to aid in the data migration.
 
 ### Objective
-Queries were run on the 6 available .csv files containing employee data to evaluate the full scope of the tsunami, which job titles will be impacted the most, and identify individuals who could be retained as mentors.  
+Six `.csv` files were imported into the database.  SQL queries were scripted to evaluate the full scope of the tsunami, which job titles will be impacted the most, and identify individuals based on specific criteria who could be retained as mentors.  The new tables were exported as `.csv` files for distribution to HR.
 
 ## Resources
 
-- [Data Sources](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/tree/main/Pewlett-Hackard-Challenge/data)
-- [Quick DBD](https://www.quickdatabasediagrams.com/)
+- Data Sources: [here](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/tree/main/Pewlett-Hackard-Challenge/data)
+- Quick DBD diagram: [here](https://www.quickdatabasediagrams.com/)
 - PostgreSQL14.4 and pgAdmin4
-- Queries: [Employee_Database_challenge.sql](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/queries/Employee_Database_challenge.sql)
+- SQL Queries: [Employee_Database_challenge.sql](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/queries/Employee_Database_challenge.sql)
 
 ## Results 
 
@@ -28,9 +28,15 @@ Queries were run on the 6 available .csv files containing employee data to evalu
 
 ## Summary
 
-***Q1 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?***  72,485
+Migration of the data to a relational database allows users to easily build reports which help inform key decisions for the company.
 
-***Q2 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?***  If the company is looking to refill the ~70,000 positions and assign mentors, the available mentor pool of 1549 people would be a ratio of approximately 1 mentor to 45 mentees.  This may or may not be feasible depending on the context of job responsibilites, amount of time required and available for training, etc.  
+***How many roles will need to be filled as the "silver tsunami" begins to make an impact?***  
+
+  72,485
+
+***Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?***  
+
+  If the company is looking to refill the ~70,000 positions and assign mentors, the available mentor pool of 1549 people would be a ratio of approximately 1 mentor to 45 mentees.  This may or may not be feasible depending on the context of job responsibilites, amount of time required and available for training, etc.  
 
 ### Additional queries
 The following may be useful to implement the mentoring program and can be pulled from the current data with additional queries:
