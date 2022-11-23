@@ -47,10 +47,17 @@ Migration of the data to a relational database allows users to easily build repo
 ***Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?***  
 
   If the company is looking to refill the ~70,000 positions and assign mentors, the available mentor pool of 1549 people would be a ratio of approximately 1 mentor to 45 mentees.  This may or may not be feasible depending on the context of job responsibilites, amount of time required and available for training, etc.  
+  
+## Dashboard  
+
+A connection was made from Tableau to the postgreSQL database to create a dashboard for visualization of the results.  The dashboard can be filtered on Department and shows the impact of the retirement projections by role as well as the number of current employees which meet the 'mentor' criteria within the same department. 
+
+<img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/dashboard.png" width="450" height="500"/>
+
+
+
 
 ### Additional queries
 The following may be useful to implement the mentoring program and can be pulled from the current data with additional queries:
   - Employee id, First and Last Name, (Current) Title and Department of (current) employees who have been with the company for less than ~2 years.  These employees may be candidates for internal mentoring.
   - A similar table containing the same information on employees who have been with the company for more ~ 5 years. These employees may be a secondary resource for additional mentors.
-  - Refactoring of the Retiring Titles query to include Department.  This would further characterize the impact of the tsunami on different departments.
-  - Refactoring of the Mentorship Eligibility query to include Department.  This would identify mentors which can be matched with mentees within their department.
