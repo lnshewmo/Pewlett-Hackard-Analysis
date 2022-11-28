@@ -13,6 +13,7 @@ Six `.csv` files were imported into the database.  SQL queries were scripted to 
 - Quick DBD: [here](https://www.quickdatabasediagrams.com/)
 - PostgreSQL14.4 and pgAdmin4
 - SQL Queries: [Employee_Database_challenge.sql](https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Challenge/queries/Employee_Database_challenge.sql)
+- Tableau Desktop (Tableau Public was used to share the dashboard)
 
 ## Results
 
@@ -51,7 +52,8 @@ Migration of the data to a relational database allows users to easily build repo
 ## Dashboard  
 
 A connection was made from Tableau to the postgreSQL database to create a dashboard for visualization of the results.  The dashboard can be filtered on Department and shows the impact of the retirement projections by role as well as the number of current employees which meet the 'mentor' criteria within the same department. 
-Link to the dashboard on Tableau Public: [here](https://public.tableau.com/views/PHRetirementProjections/RetirementProjectionDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+**Link to the dashboard on Tableau Public: [here](https://public.tableau.com/views/PHRetirementProjections/RetirementProjectionDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)**
 
 <img src="https://github.com/lnshewmo/Pewlett-Hackard-Analysis/blob/main/dashboard.png" width="850" height="500"/>
 
